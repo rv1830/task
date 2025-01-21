@@ -7,7 +7,7 @@ import { SignedOut, SignedIn } from "@clerk/nextjs";
 const Hero = () => {
   return (
     <motion.div
-      className="w-screen h-screen flex flex-col justify-center items-center bg-gradient-to-t from-indigo-500 via-white/90"
+      className="w-screen h-screen flex flex-col justify-center items-center bg-gradient-to-t from-indigo-500 via-[rgba(255,_255,_255,_0.9)] to-transparent"
       initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 2, ease: "easeInOut" }}
