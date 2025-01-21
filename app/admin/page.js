@@ -61,7 +61,7 @@ const AdminDashboard = () => {
               onSubmit={handleSubmit}
             >
               <div>
-                <label className="block text-md font-semibold text-left mx-2">Task Name</label>
+                <label className="block text-md font-semibold text-left mx-2 text-black">Task Name</label>
                 <input
                   type="text"
                   value={taskName}
@@ -71,7 +71,7 @@ const AdminDashboard = () => {
                 />
               </div>
               <div>
-                <label className="block text-md font-semibold text-left mx-2">Task Description</label>
+                <label className="block text-md font-semibold text-left mx-2 text-black">Task Description</label>
                 <textarea
                   value={taskDesc}
                   onChange={(e) => setTaskDesc(e.target.value)}
@@ -80,7 +80,7 @@ const AdminDashboard = () => {
                 />
               </div>
               <div>
-                <label className="block text-md font-semibold text-left mx-2">Deadline</label>
+                <label className="block text-md font-semibold text-left mx-2 text-black">Deadline</label>
                 <input
                   type="date"
                   value={taskDeadline}
