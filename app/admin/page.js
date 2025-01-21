@@ -66,7 +66,7 @@ const AdminDashboard = () => {
                   type="text"
                   value={taskName}
                   onChange={(e) => setTaskName(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all"
+                  className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all"
                   required
                 />
               </div>
@@ -75,12 +75,12 @@ const AdminDashboard = () => {
                 <textarea
                   value={taskDesc}
                   onChange={(e) => setTaskDesc(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all"
+                  className="w-full px-4 py-2 text-black border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-200 transition-all"
                   required
                 />
               </div>
               <div>
-                <label className="block text-md font-semibold text-left mx-2 text-black">Deadline</label>
+                <label className="block text-md text-black font-semibold text-left mx-2 text-black">Deadline</label>
                 <input
                   type="date"
                   value={taskDeadline}
